@@ -1,0 +1,79 @@
+:root { --mavi: #6bc1f1 }
+header { background: url('img/headerbg.jpg') center/cover }
+.bg-mavi { background-color: var(--mavi) }
+.bg-boz { background-color: #f1f1f1 }
+.bg-goy { background-color: #072035 }
+.text-mavi { color: var(--mavi) }
+.vh-50 { min-height: 50vh; }
+.w-370{width: 370px;}
+.h-300{height: 300px;}
+.m-0-350{margin:0 350px;}
+.brd{border: 1px solid white;}
+.m-190{margin: 0 190px;}
+.m-12-0{margin: 12px 0;}
+.pd-18-21{padding: 18px 21px;}
+.borderboz{ border: 1px solid #e5e5e5;}
+.bordermavi{ border: 1px solid #6bc1f1;}
+.w-lg-460{width: 63%;}
+.btnstyle
+{
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #061b46;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.cardh5
+{
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.cardp
+{
+    opacity: 0.702;
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+form{
+    color: #e5e5e5;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+.h5{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;}
+.h6{
+    opacity: 0.702;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;}
+.pstyle{
+    opacity: 0.851;
+    font-size: 1rem;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
+.features:hover { opacity: .5;}
+
+.carousel-item, .carousel-caption{height: 200px;}
+.carousel-indicators button
+{
+    width: 45px!important;
+    height: 45px!important;
+    border-radius: 50%;
+}
+.carousel-indicators button.active
+{
+    width: 60px!important;
+    height: 60px!important;
+}
